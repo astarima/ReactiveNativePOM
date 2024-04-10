@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: tests.DatePickerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.588 s <<< FAILURE! -- in tests.DatePickerTest
+tests.DatePickerTest.openAndChooseDataPicker -- Time elapsed: 4.584 s <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/Student-Day-1/Downloads/react_native_pom-main/app/React_Native_UI.apk' does not exist or is not accessible 
+Host info: host: 'ASTAP', ip: '10.17.50.188'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:udid=emulator-5554, appium:avdReadyTimeout=5000, appium:avdLaunchTimeout=5000, appium:eventTimings=true, platformName=ANDROID, appium:automationName=UiAutomator2, appium:app=/Users/Student-Day-1/Downloads/react_native_pom-main/app/React_Native_UI.apk, appium:platformVersion=11.0}], desiredCapabilities=Capabilities {appium:app: /Users/Student-Day-1/Downlo..., appium:automationName: UiAutomator2, appium:avdLaunchTimeout: 5000, appium:avdReadyTimeout: 5000, appium:eventTimings: true, appium:platformVersion: 11.0, appium:udid: emulator-5554, platformName: ANDROID}}]
+Capabilities {appium:app: /Users/Student-Day-1/Downlo..., appium:automationName: UiAutomator2, appium:avdLaunchTimeout: 5000, appium:avdReadyTimeout: 5000, appium:eventTimings: true, appium:platformVersion: 11.0, appium:udid: emulator-5554, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:113)
+	at tests.Base.setUp(Base.java:36)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
